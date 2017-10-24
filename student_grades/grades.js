@@ -1,6 +1,3 @@
-const scores = [82, 71, 62, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87, 60]
-
-
 // Basic QuickSort method.  NOT STABLE....obviously
 function quickSort(arr, leftPos, rightPos, arrLength) {
 	let initialLeftPos = leftPos;
@@ -95,8 +92,10 @@ var mergeSort = function (array) {
 	return merge_sort(array);
 }
 
-// Function that sorts grades.  stable is a boolean.  True === stable array sort, False === faster array sort.  scores is the array of grades
-const sortGrades = function (stable, scores) {
+// Function that sorts grades.
+//  stable is a boolean.  True === stable array sort, False === faster array sort. Default is false for faster execution
+// scores is the array of grades that is to be sorted
+const sortGrades = function (scores, stable = false) {
 	const grades = { A: 0, B: 0, C: 0, D: 0, F: 0 }
 	let lowestScore = 0
 	let highestScore = 0
@@ -113,7 +112,7 @@ const sortGrades = function (stable, scores) {
 	if (stable) {
 		mergeSort(scores)
 	} else {
-		quickSort(scores, scores[0], scores[(scored.length - 1)], scores.length)
+		quickSort(scores, scores[0], scores[(scores.length - 1)], scores.length)
 	}
 
 	highestScore = scores[scores.length - 1]
