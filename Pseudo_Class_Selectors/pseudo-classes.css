@@ -1,0 +1,44 @@
+ul{
+	display: inline;
+}
+
+.inline{
+	display: block;
+	border: 1px solid blue;
+	margin: 25px
+}
+
+.n-child :nth-child(odd){
+	color: blue;
+}
+
+.first-of-type aside:first-of-type{
+	background-color: lime;
+}
+
+.first-of-type section:first-of-type{
+	background-color: purple;
+}
+
+.three section{
+	background-color: orange;
+}
+
+.three :first-child{
+	background-color: goldenrod;
+}
+
+.three :last-child{
+	background-color: darkslategray;	
+}
+
+
+article::before{
+	content: "Article parent element";
+}
+
+article{
+	border: 5px dashed gray;
+	background-color: royalblue;
+	width: 100%
+}
