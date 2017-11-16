@@ -1,0 +1,41 @@
+{
+	"products": [
+		{
+			"title" : "Thing1",
+			"desc": "this is a thing1",
+			"price": "All the monies",
+			"quantity": "1",
+			"img": "./thing.jpg"
+		},{
+			"title" : "Thing2",
+			"desc": "this is a thing2",
+			"price": "All the monies",
+			"quantity": "2",
+			"img": "./thing.jpg"
+		},{
+			"title" : "Thing3",
+			"desc": "this is a thing3",
+			"price": "All the monies",
+			"quantity": "3",
+			"img": "./thing.jpg"
+		},{
+			"title" : "Thing4",
+			"desc": "this is a thing4",
+			"price": "All the monies",
+			"quantity": "4",
+			"img": "./thing.jpg"
+		},{
+			"title" : "Thing5",
+			"desc": "this is a thing5",
+			"price": "All the monies",
+			"quantity": "5",
+			"img": "./thing.jpg"
+		},{
+			"title" : "Thing6",
+			"desc": "this is a thing6",
+			"price": "All the monies",
+			"quantity": "6",
+			"img": "./thing.jpg"
+		}
+	]
+}
